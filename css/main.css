@@ -1579,6 +1579,9 @@ footer .footer-top .mail .form-group a {
   font-size: 18px;
   transition: all 0.5s;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer .footer-top .mail .form-group a:hover {

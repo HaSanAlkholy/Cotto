@@ -1338,6 +1338,9 @@ footer {
                     font-size: 18px;
                     transition: all 0.5s;
                     cursor: pointer;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
 
                     &:hover {
                         color: $color1;
