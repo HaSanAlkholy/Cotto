@@ -342,7 +342,7 @@ ul {
   outline: none;
   font-size: 14px;
   cursor: pointer;
-  background-color: #b38d33;
+  background-color: #81692f;
   background-image: linear-gradient(45deg, #c9b87e 0%, #81692f 100%);
   width: fit-content;
   height: fit-content;
@@ -370,6 +370,13 @@ ul {
   cursor: pointer;
   color: black;
   transition: all 0.5s;
+  background-color: #f2f2f2;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .product .product-disc .buy .like:hover {
@@ -447,7 +454,7 @@ nav .top-setting .top-dropDown {
   transform: translateX(-50%);
   background-color: #fff;
   min-width: 120px;
-  padding: 15px 10px;
+  padding: 12px 13px;
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: all 0.3s ease-in-out;
@@ -459,7 +466,7 @@ nav .top-setting .top-dropDown {
 nav .top-setting .drop-link {
   white-space: nowrap;
   border-bottom: 1px solid #ededf0;
-  padding: 5px;
+  padding: 7px;
   margin-bottom: 4px;
   font-size: 15px;
   display: block;
@@ -518,6 +525,7 @@ nav .nav-bottom .nav-logo {
 @media (max-width: 992px) {
   nav .nav-bottom .nav-logo {
     text-align: center;
+    margin-inline-end: 0px;
   }
 }
 
@@ -824,7 +832,7 @@ nav .nava-active .nava-content {
 .up {
   height: 50px;
   width: 50px;
-  background-color: #c7a923a6;
+  background-color: #c9b87edb;
   right: 20px;
   bottom: 30px;
   color: white;
@@ -1101,7 +1109,7 @@ header .swiper-container .swiper-slide img {
     width: 100%;
     text-align: center;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 15px;
   }
 }
 
@@ -1655,7 +1663,7 @@ footer .payment img {
     margin-bottom: 10px;
   }
   footer .payment img {
-    width: 65px;
+    max-width: 23%;
     margin: 0 5px;
   }
 }
@@ -1756,6 +1764,10 @@ html[dir="ltr"] header .swiper-container .swiper-button-prev {
 html[dir="ltr"] header .swiper-container .swiper-button-next {
   left: unset;
   right: 35px;
+}
+
+html[dir="ltr"] #notes .note .note-body h3 {
+  font-size: 16px;
 }
 
 html[dir="ltr"] footer .footer-top li:hover {
